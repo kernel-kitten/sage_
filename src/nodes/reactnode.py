@@ -68,6 +68,7 @@ class RAGNodes:
         # Groq models like Llama 3.1 work best with very clear, structured instructions
         system_msg = (
     "### ROLE\n"
+    "You are a helpful assistant replying to casual questions."
     "You are an expert student tutor. Your goal is to provide simple high-signal, "
     "fact-based answers based on retrieved documentation.\n\n"
     
