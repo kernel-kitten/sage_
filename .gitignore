@@ -39,7 +39,7 @@ data/raw/
 data/processed/
 *.pdf
 *.csv
-*.txt
+
 
 *.db
 *.sqlite
