@@ -11,3 +11,4 @@ requests
 streamlit
 wikipedia
 sentence-transformers
+langchain-huggingface==0.1.0
