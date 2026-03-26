@@ -1,0 +1,48 @@
+# --- Security / Credentials ---
+.env
+secrets.toml
+*.pem
+credentials.json
+
+# --- Python Environment ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+build/
+dist/
+*.egg-info/
+
+# --- Databases & Vector Stores ---
+# This is vital since you are using SQLite and Vector Stores
+*.db
+*.sqlite
+*.sqlite3
+# Ignore the directory where your FAISS or Chroma index is stored
+vectorstore_data/
+index.faiss
+index.pkl
+
+# --- Streamlit Specific ---
+.streamlit/config.toml
+# But keep .streamlit/secrets.toml if it's just a template (not recommended)
+
+# --- OS Related ---
+.DS_Store
+Thumbs.db
+
+# --- Document Processing ---
+# If you download PDFs or data for processing, ignore the local copies
+data/raw/
+data/processed/
+*.pdf
+*.csv
+*.txt
+
+*.db
+*.sqlite
+*.sqlite3
+
+__init__.py
